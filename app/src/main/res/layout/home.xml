@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    tools:context=".home">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45sp"
+        android:fitsSystemWindows="false"
+        tools:openDrawer="start">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPagerHome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBG"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tabLayoutHome"></androidx.viewpager.widget.ViewPager>
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/colorBG"
+            android:elevation="8dp"
+            android:fitsSystemWindows="true"
+            android:theme="@style/naview"
+            app:headerLayout="@layout/nav_header_home"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorTitle"
+            app:menu="@menu/activity_home_drawer" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+    <com.creative.news302.utility.CustomDrawerButton
+        android:id="@+id/dbutton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ic_menu" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayoutHome"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_marginStart="50dp"
+        android:paddingBottom="5dp"
+        android:background="@color/colorBG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
+        app:tabGravity="fill"
+        app:tabIndicator="@drawable/button_back_reddish_round"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorHeight="6dp"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/colorIndicator"
+        app:tabTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:tabTextColor="@color/colorTitle"></com.google.android.material.tabs.TabLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

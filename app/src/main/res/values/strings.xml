@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Fitness Freak Promotion</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="facebook_app_id">141878057200377</string>
+    <string name="fb_login_protocol_scheme">fb141878057200377</string>
+
+<string name="apppi">AIzaSyB7CSAPxwZrDZ1yDNqS7_kB8pD7pwZ7aes</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="category_arrays">
+        <item>National</item>
+        <item>International</item>
+        <item>Sports</item>
+        <item>Entertainment</item>
+        <item>Technology</item>
+        <item>Politics</item>
+        <item>Economy</item>
+        <item>Editorial</item>
+        <item>Current Affairs</item>
+    </string-array>
+</resources>

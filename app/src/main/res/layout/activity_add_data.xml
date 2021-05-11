@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBG"
+    tools:context=".admin.addData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Add News"
+            android:textColor="@color/colorSecondTitle"
+            android:textSize="17sp"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            android:padding="5dp">
+
+            <ProgressBar
+                android:id="@+id/pb"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:elevation="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imvupload"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imvupload" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:padding="8dp"
+                android:text="Uploading"
+                android:textColor="@color/color_white"
+                android:background="@drawable/button_back_ripple_round_grey"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imvupload"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/button_back_ripple_round_grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="74dp">
+
+                <EditText
+                    android:id="@+id/edTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:background="@drawable/back_white_round"
+                    android:ems="10"
+                    android:hint="Title"
+                     
+                    android:paddingStart="4dp"
+                    android:textSize="14sp" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout1h"
+                android:layout_width="match_parent"
+                android:layout_height="74dp">
+
+                <EditText
+                    android:id="@+id/edTitleh"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:background="@drawable/back_white_round"
+                    android:ems="10"
+                    android:hint="Title in hindi"
+                     
+                    android:paddingStart="4dp"
+                    android:textSize="14sp" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="74dp">
+
+                <EditText
+                    android:id="@+id/edBrief"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:background="@drawable/back_white_round"
+                    android:ems="10"
+                    android:hint="Brief"
+                     
+                    android:paddingStart="4dp"
+                    android:textSize="14sp"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout3h"
+                android:layout_width="match_parent"
+                android:layout_height="74dp">
+
+                <EditText
+                    android:id="@+id/edBriefh"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:background="@drawable/back_white_round"
+                    android:ems="10"
+                    android:hint="Brief in hindi"
+                     
+                    android:paddingStart="4dp"
+                    android:textSize="14sp"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+
+                <EditText
+                    android:id="@+id/edDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:background="@drawable/back_white_round"
+                    android:ems="10"
+                    android:gravity="top"
+                    android:hint="Description"
+                     
+                    android:paddingStart="4dp"
+                    android:textSize="14sp"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout7h"
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+
+                <EditText
+                    android:id="@+id/edDescriptionh"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:background="@drawable/back_white_round"
+                    android:ems="10"
+                    android:gravity="top"
+                    android:hint="Description in hindi"
+                     
+                    android:paddingStart="4dp"
+                    android:textSize="14sp"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="74dp">
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="12dp"
+            android:textColor="@color/colorTitle"
+            android:text="Select Category"/>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="5dp"
+
+            android:entries="@array/category_arrays"
+            />
+
+        <Button
+            android:id="@+id/b_add"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="@color/color_white"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="25dp"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_back_ripple_round"
+            android:text="Add"></Button>
+
+        <Button
+            android:id="@+id/b_proceed"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="@color/color_white"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="25dp"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:background="@drawable/button_back_ripple_roundfull_green"
+            android:text="Proceed"></Button>
+    </LinearLayout>
+</ScrollView>

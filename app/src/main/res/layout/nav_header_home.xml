@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/colorBG2"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="8dp"
+     >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imvdp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="HIIII"
+        android:scaleType="centerCrop"
+        android:background="@drawable/ic_account"
+        android:tintMode="add"
+        android:backgroundTint="@color/color_white"
+        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:paddingTop="8dp"
+        android:text="Hiii"
+        android:textColor="@color/colorTitleWhite"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/comr"
+        android:text="Subtitle"
+        android:textColor="@color/colorTitleWhite"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvinitial"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="A"
+        android:textColor="@color/colorPrimary"
+        android:textSize="45sp"
+        android:visibility="gone"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/imvdp"
+        app:layout_constraintEnd_toEndOf="@+id/imvdp"
+        app:layout_constraintStart_toStartOf="@+id/imvdp"
+        app:layout_constraintTop_toTopOf="@+id/imvdp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

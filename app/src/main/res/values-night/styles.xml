@@ -1,0 +1,80 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorAccentNight</item>
+        <item name="android:statusBarColor">@color/colorBGNight</item>
+        <item name="android:textColorSecondary">@color/color_grey_dark</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionAndStatusBar" parent="AppTheme.NoActionBar">
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+    </style>
+
+    <style name="AppTheme.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/colorBGNight</item>
+
+    </style>
+
+    <style name="CR">
+        <item name="android:textColor">@color/color_grey_dark</item>
+        <item name="android:fontFamily">@font/comr</item>
+        <item name="android:background">@color/colorPrimaryNight</item>
+    </style>
+
+    <style name="mySpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+
+    <style name="naview" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:fontFamily">@font/comr</item>
+    </style>
+
+    <style name="CR2">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:fontFamily">@font/comr</item>
+    </style>
+
+    <style name="intext">
+        <item name="android:fontFamily">@font/comr</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#ffffff</item>
+
+    </style>
+
+
+    <style name="MyFilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="hintTextAppearance">@style/intext</item>
+        <item name="colorAccent">@color/color_grey_dark</item>
+        <item name="android:colorControlNormal">@color/color_grey_dark</item>
+
+
+    </style>
+
+    <style name="MyRatingBar" parent="">
+        <item name="colorAccent">@color/color_grey_dark</item>
+        <item name="android:colorControlNormal">@color/color_grey_dark</item>
+    </style>
+
+    <style name="AppThemeRatingBar" parent="Theme.AppCompat">
+        <item name="ratingBarStyle">@style/MyRatingBar</item>
+    </style>
+</resources>

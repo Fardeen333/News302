@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    android:orientation="vertical">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/imvNews"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/loade"
+             />
+
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="30dp"
+            android:paddingHorizontal="18dp"
+            android:paddingTop="5dp"
+            android:text="loading"
+            android:textColor="@color/heading"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imvNews" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:minHeight="50dp"
+            android:paddingHorizontal="18dp"
+            android:paddingTop="9dp"
+            android:paddingBottom="5dp"
+            android:text="loading News"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvTimestamp"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/tvTimestamp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="bottom"
+            android:paddingHorizontal="18dp"
+            android:paddingVertical="4dp"
+            android:text="loading Date"
+            android:background="@color/colorBG"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvBrief"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvBrief"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/color_grey_dark"
+            android:maxHeight="50dp"
+            android:minHeight="50dp"
+            android:paddingHorizontal="18dp"
+            android:text="loading brief"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

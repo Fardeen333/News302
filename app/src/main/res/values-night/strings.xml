@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fitness Freak Promotion</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="apppi">AIzaSyB7CSAPxwZrDZ1yDNqS7_kB8pD7pwZ7aes</string>
+
+    <string name="facebook_app_id">141878057200377</string>
+    <string name="fb_login_protocol_scheme">fb141878057200377</string>
+</resources>

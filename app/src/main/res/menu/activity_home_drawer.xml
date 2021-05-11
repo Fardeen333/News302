@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+<!--    <item-->
+<!--        android:id="@+id/nav_addnews"-->
+<!--        android:icon="@drawable/ic_add"-->
+<!--        android:title="Add News"></item>-->
+
+
+
+
+<!--    <item-->
+<!--        android:id="@+id/nav_notify"-->
+<!--        android:icon="@drawable/ic_send"-->
+<!--        android:title="Notify"></item>-->
+
+
+
+    <item
+        android:id="@+id/nav_Settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Settings" />
+
+
+
+
+    <item
+        android:id="@+id/nav_privacy"
+        android:icon="@drawable/icon_privacy"
+        android:title="Privacy Policy"></item>
+
+
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@raw/logout"
+        android:title="Logout"></item>
+
+
+</menu>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E53935</color>
+    <color name="colorPrimaryDark">#A50404</color>
+    <color name="colorAccent">#D66F6F</color>
+
+
+    <color name="colorPrimaryNight">#E53935</color>
+    <color name="colorPrimaryDarkNight">#A50404</color>
+    <color name="colorAccentNight">#8c8c8c</color>
+
+    <color name="colorTitle">#222222</color>
+    <color name="colorTitleNight">#C5C3C3</color>
+
+    <color name="colorSecondTitle">#E53935</color>
+    <color name="colorSecondTitleNight">#9c9c9c</color>
+
+<color name="heading">#1c1c1c</color>
+    <color name="colorTitleWhite">#E7E4E4</color>
+
+
+    <color name="colorBG">#EEECEC</color>
+    <color name="colorBGNight">#222222</color>
+
+    <color name="colorBG2">#E53935</color>
+    <color name="colorBGNight2">#222222</color>
+
+    <color name="colorIndicator">#E53935</color>
+    <color name="colorIndicatorNight">#E9E7E7</color>
+
+    <color name="color_grey_light">#8c8c8c</color>
+    <color name="color_grey">#6c6c6c</color>
+    <color name="color_grey_dark">#3c3c3c</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_pink_light2">#94364D</color>
+    <color name="color_pink_verylight">#B36377</color>
+
+
+    <color name="color_pink_light">#FF0099</color>
+    <color name="color_pink_dark">#493240</color>
+    <!-- ./ 1st Gradient color -->
+
+    <!-- 2nd Gradient color -->
+    <color name="color_blue_dark">#5433FF</color>
+    <color name="color_blue">#20BDFF</color>
+    <color name="color_blue_light">#A5FECB</color>
+    <!-- ./ 2nd Gradient color -->
+
+    <!-- 3rd Gradient color -->
+    <color name="color_pink">#ff00cc</color>
+    <color name="color_blue_dark_2">#333399</color>
+    <!-- ./ 3rd Gradient color -->
+
+    <color name="color_green">#2B9425</color>
+    <color name="color_green_dark">#245C26</color>
+
+
+
+    <!-- 4th Gradient color -->
+    <color name="color_blue_pale">#3a6186</color>
+    <color name="color_pink_dark_2">#89253e</color>
+
+    <color name="color_light_pink">#ff0084</color>
+    <color name="color_magenta">#33001b</color>
+    <color name="color_red">#E20E0E</color>
+</resources>

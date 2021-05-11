@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG">
+    <com.creative.news302.viewpagers.verticalviewpager
+        android:id="@+id/viewPagerNewscat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBG"
+        android:visibility="visible">
+
+    </com.creative.news302.viewpagers.verticalviewpager>
+
+</LinearLayout>
